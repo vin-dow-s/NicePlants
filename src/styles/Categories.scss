@@ -1,0 +1,42 @@
+.np-categories {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+
+    &__select {
+        text-transform: capitalize;
+        appearance: none;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 1.4;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        background-image: url("../assets/arrow-down-s-line.svg");
+        background-repeat: no-repeat;
+        background-position: 90px center;
+        background-size: 20px;
+        padding-right: 25px;
+        color: #333;
+        box-shadow: none;
+        transition: border-color 0.3s ease-in-out;
+
+        &:focus {
+            outline: none;
+            border-color: #31B572;
+        }
+    }
+
+    &__reset {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        background: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}

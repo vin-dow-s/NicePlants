@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.np-banner {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    text-align: right;
+    padding: 32px;
+    border-bottom: 3px solid black;
+    margin: 0;
+
+
+    &__logo {
+        height: 45px;
+        width: 45px;
+    }
+
+    &__title {
+        padding-left: 32px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+    }
+}

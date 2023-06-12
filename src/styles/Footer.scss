@@ -1,0 +1,24 @@
+.np-footer {
+	color: white;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 600;
+	background-color: #31B572;
+
+	> input {
+		border: none;
+		border-bottom: 1px solid black;
+		width: 120px;
+		outline: none;
+		background: none;
+		text-align: center;
+	}
+}
+
+.np-footer-elem {
+	margin-bottom: 10px;
+}

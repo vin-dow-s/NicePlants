@@ -11,6 +11,7 @@
     color: white;
     background-color: #31B572;
     text-transform: capitalize;
+    position: fixed;
 
     @mixin font-varela {
         font-family: 'Varela Round', sans-serif;
